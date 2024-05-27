@@ -12,6 +12,10 @@ module.exports = {
     },
   },
   networks: {
+    polygon_amoy: {
+      url: "https://rpc-amoy.polygon.technology",
+      chainId: 80002,
+    },
     zksync_testnet: {
       url: "https://zksync2-testnet.zksync.dev",
       ethNetwork: "goerli",
@@ -32,7 +36,7 @@ module.exports = {
     tests: "./test",
   },
   solidity: {
-    version: "0.8.17",
+    version: "0.8.20",
     settings: {
       optimizer: {
         enabled: true,
